@@ -1,0 +1,26 @@
+PROTECTING ROUTES WITH GUARDS
+
+CanActive
+- Guard navigation to a route
+
+CanDeactivate
+- Guard Navigation from a route
+
+Resolve
+- Pre-fetch data before Activate a route
+
+CanLoad
+- Prevent asynchronous routing
+
+
+ANGULAR MODULES
+
+Module
+- A class with an NgModule decorator
+*Its purpose:
+-Organize the pieces of our aplication
+-Arrage them into block = bloques cohesivos de funcionalidad
+-Extend our application with copabilities from external libraries
+- Provide a template resolution environment = Proporcionan el entorno para la resolucion de directivas
+- Aggregate and re-export modules, http ect ect
+Module -> Declares -> Components,Directive, Pipe gestion this.
